@@ -1,0 +1,14 @@
+{
+  "name": "jonathan-espanol-portfolio",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i src/tailwind.css -o assets/tailwind.css --minify",
+    "watch:css": "tailwindcss -i src/tailwind.css -o assets/tailwind.css --watch"
+  },
+  "dependencies": {
+    "vue": "3.4.21"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
