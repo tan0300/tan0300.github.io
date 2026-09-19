@@ -41,3 +41,21 @@ html,body{overflow-x:hidden}.nav{align-items:center}.nav a{height:34px;padding:0
   .lightbox-copy{padding:16px}
   .lightbox-close{top:10px;right:10px;width:40px;height:40px;z-index:2}
 }
+@media(max-width:600px){
+  .projects-section{height:auto!important;overflow:visible;padding:20px 0 28px}
+  .project-grid{display:flex;flex-direction:column;gap:14px;height:auto}
+  .project-card{display:block;width:100%;min-height:0;height:auto;padding:10px;overflow:hidden}
+  .project-card>img,.project-art{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:left top}
+  .project-body{padding:12px 2px 4px}
+  .project-body h3{font-size:17px;margin:0 30px 5px 0}
+  .project-body p{font-size:13px;line-height:1.45;min-height:0;height:auto;margin-bottom:10px}
+  .tags{flex-wrap:wrap;white-space:normal;margin-top:0}
+  .tags span{font-size:10px;padding:5px 9px}
+  .external{right:2px;top:10px}
+  .contact-section{position:static;clear:both;height:auto!important;margin:0;overflow:visible}
+  .contact-inner{display:flex;height:auto;align-items:flex-start}
+  .contact-intro{width:calc(100% - 76px)}
+  .contact-links{width:100%;order:3}
+  .contact-btn{order:4}
+  footer{position:static;clear:both;height:auto!important}
+}
